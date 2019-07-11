@@ -1,6 +1,6 @@
 server:
 
-  port: 9090
+  port: 9092
 
 spring:
 
@@ -17,10 +17,7 @@ spring:
      password: root123
 
      url: jdbc:mysql://localhost:3306/myrbac?characterEncoding=utf-8&userSSL=false
-
-   jpa:
-
-       show-sql: true
+     
 
 eureka:
 
@@ -28,4 +25,4 @@ eureka:
 
     service-url:
 
-      defaultZone: http://localhost:8761/eureka
+      defaultZone: http://localhost:9090/eureka
